@@ -20,7 +20,7 @@ function init() {
   let candy = randomPixel();
 
   function centerPixel() {
-    return new Pixel(board.width/2, board.height/2);
+    return new Pixel(5, 5);
   }
 
   function randomPixel() {
@@ -71,7 +71,7 @@ function init() {
 
 class Pixel {
   static get SIZE() {
-    return 5;
+    return 15;
   }
 
   constructor(x, y) {
